@@ -7,6 +7,8 @@ import CurrencyTextField from '@unicef/material-ui-currency-textfield';
 // 	{ value: 'CAD', text: 'CAD' },
 // ];
 
+const key = config.API_ACCESS_KEY;
+
 export const Convert = () => {
 	const [amount, setAmount] = useState(0);
 
